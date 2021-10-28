@@ -8,30 +8,39 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>SERG.io's Portfolio</title>
 </head>
 
 <body>
   <!--Intro header-->
   <div class="container my-5">
-    <h1 class="display">SERGio Espinal</h1>
-    <p class="lead">
-      Welcome to my Junior Year Portfolio.
-    </p>
-    <a href="mailto:523Sespinal@frhsd.com" type="button" class="btn btn-outline-primary">523Sespinal@frhsd.com</a>
+    <div class="Iam  padding-Title">
+      <p class="title-B">This is</p>
+      <b>
+        <div class="innerIam">
+          my website<br />
+          my portfolio<br />
+          HTML<br />
+          CSS<br />
+          Javascript
+        </div>
+      </b>
+    </div>
+    <a href="mailto:523Sespinal@frhsd.com" type="button" class="btn btn-danger">523Sespinal@frhsd.com</a>
   </div>
   <!-- Nav -->
   <div class="container">
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link active B-am-m" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active bg-danger B-am-m" aria-current="page" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn-dark active B-am-m" href="aboutme.html">About me</a>
+        <a class="nav-link bg-danger btn-dark active B-am-m" href="aboutme.html">About me</a>
       </li>
       <li>
-        <a class="btn btn-dark B-am-m" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-dark bg-danger B-am-m" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Link with href
         </a>
       </li>
@@ -46,12 +55,48 @@
 
 
   </p>
-  <div class="collapse" id="collapseExample">
-    <div class="card card-body">
-      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-    </div>
-  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card text-white bg-secondary mb-3" style="max-width: 36rem; width:500px">
+          <div class="card-header">Video Game Development</div>
+          <div class="card-body">
+            <img class="card-img-top aboutme-imgs mx-auto" src="https://yt3.ggpht.com/dBwhvX2iF121h0UWumMKi5_4cPclBTKIdIm3KM9KroRUcLWrLkppDf67dIDH-i_YrBAupazR=s900-c-k-c0x00ffffff-no-rj">
+            <h5 class="card-title">Unity</h5>
+            <p class="card-text">Lately I started learning Unity to help code in TSA for a video game coding competition. I have also just been interested in this for a while now so it is great for me to learn a language like this.</p>
+          </div>
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="max-width: 36rem; width:500px;">
+          <div class="card-header">Fighting</div>
+          <img class="card-img-top aboutme-imgs mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/JeetKuneDo.svg">
+          <div class="card-body">
+            <h5 class="card-title">June Keet do</h5>
+            <p class="card-text">I have also always been interested in fighting as I have been interested in this for a while now. I have become a black belt in Tae Kwon Do in the past and I would like to continue that in different fighting styles
+              such as JuneKeet Do, even though I have been struggling to teach myself this.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white bg-danger mb-3" style="max-width: 36rem; width:500px">
+          <div class="card-header">Minecraft</div>
 
+          <div class="card-body">
+            <img class="card-img-top aboutme-imgs mx-auto" src="https://pbs.twimg.com/profile_images/1433445755562467328/sUG63TNG_400x400.jpg">
+            <h5 class="card-title">One of my favorite games</h5>
+            <p class="card-text">Minecraft has been my lifetime favorite game. There are so many things you can do in it, to satsify everyone.</p>
+          </div>
+        </div>
+        <div class="card text-white bg-danger mb-3" style="max-width: 36rem; width:500px">
+          <div class="card-header">Valorant</div>
+
+          <div class="card-body">
+            <img class="card-img-top aboutme-imgs mx-auto" src="https://cdn.vox-cdn.com/thumbor/lM6S1jVTBrNEUQ0eEjf7eJBltnQ=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22553557/VALORANT_YR1_KeyArt_4k_3_.jpg">
+            <h5 class="card-title">Another one of my favorite games</h5>
+            <p class="card-text">This is my second favorite game. This one, unlike Minecraft is a first person PVP where the characters have special abilites and plant and defuse bombs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class="py-4 bg-dark text-white-50">
     <div class="container text-center"><small>Copyright &copy; your website</small></div>
